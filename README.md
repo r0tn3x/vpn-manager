@@ -110,86 +110,14 @@ vpn --help           # Show usage information
 
 ## 🎯 Examples
 
-### Basic Workflow
+<img width="595" height="536" alt="image" src="https://github.com/user-attachments/assets/b70e6286-b299-4122-a587-e8ce7dcf5003" />
 
-```bash
-# List available VPN configs
-$ vpn --available
+<img width="593" height="341" alt="image" src="https://github.com/user-attachments/assets/d22ce1d8-f68d-4352-8ebe-0ebf56188e46" />
 
-╔═══════════════════════════════════════╗
-║  Available VPN Configurations      ║
-╚═══════════════════════════════════════╝
+<img width="987" height="634" alt="image" src="https://github.com/user-attachments/assets/e02a1f9c-360a-485b-b7e8-8c15cbf05fda" />
 
-[1] dante-prolab
-    └─ File: dante-prolab.ovpn
-    └─ Size: 4.0K
-    └─ Modified: 2025-12-09
+<img width="572" height="366" alt="image" src="https://github.com/user-attachments/assets/09cf841f-ddc0-4e70-9371-0eb759d870c7" />
 
-[2] htb
-    └─ File: htb.ovpn
-    └─ Size: 3.5K
-    └─ Modified: 2025-12-09
-
-ℹ Total configurations: 2
-
-# Connect to VPN
-$ vpn --htb
-
-╔═══════════════════════════════════════╗
-║  Connecting to VPN                 ║
-╚═══════════════════════════════════════╝
-
-ℹ Found config: htb.ovpn
-ℹ Starting OpenVPN...
-✓ VPN connection initiated!
-ℹ Waiting for VPN interface...
-✓ VPN interface is up!
-
-# Check status
-$ vpn --status
-
-╔═══════════════════════════════════════╗
-║  VPN Connection Status             ║
-╚═══════════════════════════════════════╝
-
-✓ VPN connection is ACTIVE
-
-Connection Details:
-  ├─ PID: 12345
-  ├─ Config: htb
-  ├─ Uptime: 00:15:32
-  └─ Interfaces:
-       ├─ tun0: 10.10.14.5 (UP)
-       └─ Traffic: ↓ 15.32MB / ↑ 2.45MB
-
-Routing Information:
-✓ VPN is routing traffic
-  └─ default via 10.10.14.1 dev tun0
-
-External IP:
-  └─ 185.123.45.67
-
-# Disconnect
-$ vpn --terminate
-
-╔═══════════════════════════════════════╗
-║  Terminating VPN Connections       ║
-╚═══════════════════════════════════════╝
-
-ℹ Found active VPN process(es)
-ℹ Sending SIGTERM to PID 12345...
-✓ All VPN connections terminated successfully
-```
-
-## 🎨 Screenshots
-
-The VPN manager features beautiful colored output:
-- ✓ Green for success messages
-- ✗ Red for errors
-- ⚠ Yellow for warnings
-- ℹ Blue for information
-- Cyan for borders and highlights
-- Magenta for titles
 
 ## 🔧 Configuration
 
@@ -237,15 +165,6 @@ The VPN manager features beautiful colored output:
 - OpenVPN requires sudo privileges
 - Make sure you can run: `sudo openvpn --version`
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📝 License
 
