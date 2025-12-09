@@ -116,7 +116,7 @@ vpn --help           # Show usage information
 
 <img width="987" height="634" alt="image" src="https://github.com/user-attachments/assets/e02a1f9c-360a-485b-b7e8-8c15cbf05fda" />
 
-<img width="572" height="366" alt="image" src="https://github.com/user-attachments/assets/09cf841f-ddc0-4e70-9371-0eb759d870c7" />
+<img width="566" height="214" alt="image" src="https://github.com/user-attachments/assets/0c43cae8-e44d-411b-8226-670d96500b2c" />
 
 
 ## 🔧 Configuration
