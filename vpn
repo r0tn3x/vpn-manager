@@ -36,13 +36,13 @@ print_warning() {
 }
 
 # Function to check if OpenVPN is installed
-check_openvpn() {
-    if ! command -v openvpn &> /dev/null; then
-        print_error "OpenVPN is not installed!"
-        echo "Install it with: sudo apt install openvpn"
-        exit 1
-    fi
-}
+# check_openvpn() {
+#    if ! command -v openvpn &> /dev/null; then
+#        print_error "OpenVPN is not installed!"
+#        echo "Install it with: sudo apt install openvpn"
+#        exit 1
+#    fi
+#}
 
 # Function to check if VPN directory exists
 check_vpn_dir() {
